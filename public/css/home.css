@@ -1,0 +1,652 @@
+body {
+    background: #055BAB;
+}
+
+svg {
+    display: block;
+}
+
+.dark-navbar {
+    background: #003567;
+    opacity: 1;
+    padding: 0px 8%;
+}
+
+.dark-navbar .nav-item {
+    padding: 5px 30px 5px 0px;
+}
+
+.logo {
+    width: 80% !important;
+}
+
+.dark-navbar .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #c5c5c5;
+}
+
+.dark-navbar .nav-link:hover {
+    color: #fff;
+}
+
+.dark-navbar .active .nav-link {
+    color: #fff;
+}
+
+.dark-navbar .nav-btn {
+    background-color: #fff;
+    color: #003567;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 3px 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    transition: 0.5s;
+}
+
+.nav-btn:hover {
+    background-color: #003567;
+    color: #fff !important;
+}
+
+.nav-btn:hover .nav-link {
+    color: #fff !important;
+}
+
+.dark-navbar .nav-btn .nav-link {
+    color: #003567;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.block-div {
+    width: 100%;
+    margin-top: -5px;
+}
+
+.divi-img {
+    margin-top: -5px;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+button:focus {
+    outline: none;
+}
+
+@media screen and (max-width:768px) {
+    .dark-navbar .nav-link {
+        text-align: center;
+    }
+}
+
+
+/* hero section */
+
+.hero-section {
+    background: #055BAB;
+    color: #fff;
+}
+
+.hero-section h2 {
+    font-family: "Metropolis";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-family: "Metropolis";
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #fff;
+}
+
+.hero-section p {
+    font-family: "Metropolis";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.hero-section .theme-btn {
+    font-family: "Metropolis";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    border-radius: 10px;
+}
+
+.hero-section .theme-btn.dark {
+    background: #003567;
+    color: #fff;
+}
+
+.hero-section .theme-btn.light {
+    background: #fff;
+    color: #003567;
+}
+
+.hero-section .theme-btn:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section .theme-btn.light:active {
+    transform: translateY(2px);
+}
+
+@media screen and (max-width:425px) {
+    .hero-text {
+        font-family: "Metropolis";
+        padding: 20px 0px;
+    }
+    .hero-btn {
+        display: flex;
+    }
+    .hero-section .theme-btn {
+        padding: 8px 30px;
+    }
+    .hero-section h2 {
+        font-family: "Metropolis";
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .hero-section h1 {
+        font-family: "Metropolis";
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+
+/* our Client */
+
+.ourClient {
+    background-color: #003567;
+    color: #fff
+}
+
+.ourClient h3 {
+    font-family: "Metropolis";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ourClient p {
+    font-family: "Metropolis";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ourClient button {
+    font-family: "Metropolis";
+    border: none;
+    padding: 12px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #003567;
+}
+
+.ourClient button:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
+
+.ourClient button:active {
+    transform: translateY(2px);
+}
+
+.social-link {
+    background: #194976;
+    padding: 15px;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.social-link h6 {
+    font-family: "Metropolis";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.social-link a img {
+    width: 70% !important;
+}
+
+.grown-type img {
+    width: 30% !important;
+}
+
+
+/* growth */
+
+.growth h3 {
+    font-family: "Metropolis";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.growth p {
+    font-family: "Metropolis";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: White;
+}
+
+.grown-type {
+    font-family: "Metropolis";
+    padding: 13px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    text-align: center;
+    background: linear-gradient(131.14deg, #00509B -2.24%, #024685 108.48%);
+    transition: 0.5s;
+}
+
+.grown-type:hover {
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.9);
+    transform: translateY(-20px);
+}
+
+.grown-type h5 {
+    font-family: "Metropolis";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+
+/* why-weAre */
+
+.why-weAre {
+    background-color: #003567;
+}
+
+.why-weAre h3 {
+    font-family: "Metropolis";
+    color: white;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.why-weAre .list-group .list-group-item {
+    font-family: "Metropolis";
+    background-color: transparent;
+    gap: 10px;
+    color: white;
+    border: none;
+}
+
+.list-group-item {
+    line-height: 30px;
+}
+
+.why-weAre .list-group .list-group-item img {
+    width: 24px;
+    height: 24px;
+}
+
+.quality-card img {
+    transition: 0.3s;
+}
+
+.quality-card img:hover {
+    transform: scale(1.1);
+}
+
+.our-quality h3 {
+    font-family: "Metropolis";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.img img {
+    width: 80% !important;
+}
+
+.just-startNow h3 {
+    font-family: "Metropolis";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.just-startNow p {
+    font-family: "Metropolis";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-right: 30%;
+}
+
+.just-startNow h2 {
+    font-family: "Metropolis";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.contact-form {
+    border: 3px solid #fff;
+    padding: 25px 50px;
+    border-radius: 20px;
+    background: linear-gradient(131.14deg, #00509B -2.24%, #024685 108.48%)
+}
+
+.contact-form h4 {
+    font-family: "Metropolis";
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-form input {
+    background-color: #055BAB;
+    color: White;
+    padding: 12px;
+    margin-top: 45px;
+}
+
+.contact-form input:focus {
+    background-color: #055BAB;
+    color: White;
+}
+
+.contact-form input::placeholder {
+    color: #fff;
+}
+
+.check-out-label {
+    font-family: "Metropolis";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.contact-form label {
+    color: white;
+}
+
+.contact-form button {
+    border: none;
+    background-color: white;
+    color: #003567;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 10px;
+    padding: 13px;
+}
+
+.contact-form button:active {
+    transform: translateY(2px);
+}
+
+.form-check input {
+    margin-top: auto;
+}
+
+
+/* Learn-more */
+
+.Learn-more {
+    background: #003567;
+    color: white;
+}
+
+.con1 {
+    background: url('../img/1.png');
+    background-repeat: no-repeat;
+}
+
+.con2 {
+    background: url('../img/2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.con_5 {
+    background: url('../img/4.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.con3 {
+    background: url('../img/3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Learn-more h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.Learn-more p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 26px;
+}
+
+.learn-card {
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 13px;
+    background: linear-gradient(131.14deg, #00509B -2.24%, #024685 108.48%);
+    transition: 0.3s;
+}
+
+.learn-card:hover {
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.9);
+    transform: translateY(-20px);
+}
+
+.learn-card img {
+    width: 30%;
+    height: auto;
+}
+
+@media screen and (max-width:768px) {
+    .learn-card img {
+        width: 230px;
+        height: 210px;
+    }
+}
+
+.learn-card h6 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.footer {
+    background: #002950;
+    color: #fff;
+}
+
+.footer p {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #969696;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    padding-bottom: 20px;
+}
+
+.footer ul a {
+    font-family: "Metropolis";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #969696;
+}
+
+.footer ul a:hover {
+    text-decoration: none;
+}
+
+.footer ul a.active {
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer hr {
+    background-color: #9BCDFF;
+}
+
+.footer-copy-right p {
+    margin-top: 0px;
+    display: flex;
+}
+
+.footer-copy-right a {
+    color: #969696;
+}
+
+.footer-copy-right a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width:425px) {
+    .social-link h6 {
+        font-family: "Metropolis";
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .growth p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .just-startNow h3 {
+        font-family: "Metropolis";
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .why-weAre h3 {
+        font-family: "Metropolis";
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .just-startNow p {
+        font-family: "Metropolis";
+        padding: 0px;
+    }
+    .just-startNow h2 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .contact-form h4 {
+        font-size: 45px;
+    }
+    .contact-form {
+        padding: 25px 10px;
+    }
+    .Learn-more p {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 10px 0px;
+    }
+    .Learn-more h3 {
+        font-size: 50px;
+    }
+    .learn-card h6 {
+        padding-top: 0px;
+    }
+    .dark-navbar {
+        padding: 0px 0%;
+    }
+}
