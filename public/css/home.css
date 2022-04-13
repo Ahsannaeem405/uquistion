@@ -283,6 +283,7 @@ button:focus {
     font-family: "Metropolis";
     padding: 13px;
     border: 3px solid #fff;
+    box-shadow: rgba(255, 255, 255, 0.815) 0px 5px 15px;
     border-radius: 20px;
     text-align: center;
     background: linear-gradient(131.14deg, #00509B -2.24%, #024685 108.48%);
@@ -290,7 +291,8 @@ button:focus {
 }
 
 .grown-type:hover {
-    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.9);
+    /* box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.9); */
+    box-shadow: 0px 20px 20px rgba(255, 255, 255, 0.9);
     transform: translateY(-20px);
 }
 
@@ -511,12 +513,13 @@ button:focus {
     border: 3px solid #fff;
     border-radius: 20px;
     padding: 13px;
+    box-shadow: rgba(255, 254, 254, 0.35) 0px 5px 35px;
     background: linear-gradient(131.14deg, #00509B -2.24%, #024685 108.48%);
     transition: 0.3s;
 }
 
 .learn-card:hover {
-    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 20px 20px rgba(247, 247, 247, 0.699);
     transform: translateY(-20px);
 }
 

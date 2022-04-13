@@ -100,20 +100,20 @@
         <div class="container-fluid con2">
         <div class="container py-5">
             <div class="row">
-                <div class="col-12 text-center" data-aos="zoom-in" data-aos-duration="2000">
+                <div class="col-12 text-center" data-aos="zoom-in" data-aos-duration="1000">
                     <h3>Growth Services</h3>
                     <p>Our Growth Services team provides strategic consulting and operational marketing to your
                         business. Our unique approach to scale your business consists of an operational strategy that works.</p>
                 </div>
             </div>
             <div class="row justify-content-center my-5 gap-4">
-                <div class="col-lg-3 col-md-6 col-12"  data-aos="flip-right" data-aos-duration="2000">
+                <div class="col-lg-3 col-md-6 col-12">
                     <div class="grown-type">
                         <img src="{{asset('img/programmer 1.png')}}" alt="" class="img-fluid">
                         <h5>User Acquisition</h5>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-12" data-aos="flip-left" data-aos-duration="2000">
+                <div class="col-lg-3 col-md-6 col-12" >
                     <div class="grown-type" >
                         <img src="{{asset('img/analytics 1.png')}}" alt="" class="img-fluid">
                         <h5>User Acquisition</h5>
@@ -122,7 +122,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <p data-aos="zoom-in" data-aos-duration="2000">
+                    <p data-aos="zoom-in" data-aos-duration="1000">
                         By following our approach and continuously doing data research, we are up-to-date on every
                             channel’s changes to ensure we are strategizing your business needs to optimize in a way to
                             grow your business while maximizing profit.
@@ -150,21 +150,21 @@
                     <h3 data-aos="flip-left" data-aos-duration="1000">Why are we different? </h3>
                     <ul class="list-group">
 
-                        <li class="list-group-item d-flex  gap-4 mt-lg-3" data-aos="fade-up" data-aos-duration="3000">
+                        <li class="list-group-item d-flex  gap-4 mt-lg-3" data-aos="fade-up" data-aos-duration="1000">
                             <img src="{{asset('img/arrow.png')}}" alt="">
                             We do Market and data research so you don’t have to.
                         </li>
-                        <li class="list-group-item d-flex  gap-4 mt-lg-3" data-aos="fade-up" data-aos-duration="3000">
+                        <li class="list-group-item d-flex  gap-4 mt-lg-3" data-aos="fade-up" data-aos-duration="1000">
                             <img src="{{asset('img/arrow.png')}}" alt="">
                             We ensure your money is being spend properly on advertising to take the stress off your
                             shoulders.
                         </li>
-                        <li class="list-group-item d-flex  gap-4 mt-lg-3" data-aos="fade-up" data-aos-duration="3000">
+                        <li class="list-group-item d-flex  gap-4 mt-lg-3" data-aos="fade-up" data-aos-duration="1000">
                             <img src="{{asset('img/arrow.png')}}" alt="">
                             We have our custom-built data analysis to look into each Ad Performance and dive deep into
                             optimizations
                         </li>
-                        <li class="list-group-item d-flex  gap-4 mt-lg-3" data-aos="fade-up" data-aos-duration="3000">
+                        <li class="list-group-item d-flex  gap-4 mt-lg-3" data-aos="fade-up" data-aos-duration="1000">
                             <img src="{{asset('img/arrow.png')}}" alt="">
                             Advanced ASO solution – having the right indexation, discoverable content, and diving deep
                             into the Ad channel ranking algorithms
@@ -181,7 +181,7 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-6  mt-3" data-aos="fade-right"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine">
                     <h3>Our key foundations
@@ -192,7 +192,7 @@
                 </div>
                 <div class="col-12 col-lg-6 mt-3">
                     <div class="our-quality" data-aos="fade-left"
-                    data-aos-duration="2000"
+                    data-aos-duration="1000"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                         <div class="quality-card d-flex align-items-start" >
@@ -227,7 +227,7 @@
                 <div class="col-lg-8 col-md-10 col-12 mt-5">
                     <form method="POST" action="{{url('/submit_form')}}">
                         @csrf
-                    <div class="contact-form text-center" id="contact-form" data-aos="zoom-in" data-aos-duration="3000">
+                    <div class="contact-form text-center" id="contact-form" data-aos="zoom-in" data-aos-duration="1000">
                         <h4>Get In Touch</h4>
                         <div class="row justify-content-center">
                             <div class="col-6 ">
@@ -281,24 +281,20 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-12 text-center" data-aos="fade-up"
-                data-aos-duration="3000">
+                data-aos-duration="1000">
                     <h3>Learn More </h3>
                     <p>Our Growth Services team provides strategic consulting and full-stack operational marketing to
                         your growing mobile or web3 gaming business.</p>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 mt-3"  data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="3000">
+                <div class="col-lg-4 col-md-6 mt-3" >
                     <div class="learn-card text-center">
                         <img src="./img/service.svg" alt="services">
                         <h6>Growth Services</h6>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-3" data-aos="flip-right"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="3000">
+                <div class="col-lg-4 col-md-6 mt-3">
                     <div class="learn-card text-center" >
                         <img src="./img/graph.svg" alt="">
                         <h6>Data Analysis</h6>
