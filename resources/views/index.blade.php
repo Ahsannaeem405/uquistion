@@ -5,9 +5,9 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6">
-                    <div class="hero-text pt-5">
-                        <h3 class="">Scale and</h3>
-                        <h2 class="">Maa Profits!</h2>
+                    <div class="hero-text pt-4">
+                        <h2 class="">Scale and</h2>
+                        <h1 class="">Maa Profits!</h1>
                         <p >Our Growth Services team provides strategic consulting and full-stack operational marketing
                             to your growing mobile or web3 gaming business.</p>
 
@@ -52,7 +52,7 @@
                 <div class="col-lg-6 col-12 mt-5">
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-6 mt-3 mt-md-0" >
-                            <div class="social-link d-flex align-items-center" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="social-link d-flex align-items-center">
                                 <a href="">
                                     <img src="{{asset('img/Facebook_white.png')}}" alt="" class="img-fluid">
                                 </a>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="row justify-content-center py-0 py-md-5">
                         <div class="col-12 col-md-6 mt-3 mt-md-0">
-                            <div class="social-link d-flex align-items-center" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="social-link d-flex align-items-center">
                                 <a href="">
                                     <img src="{{asset('img/Snapchat.png')}}" alt="" class="img-fluid">
                                 </a>
@@ -70,7 +70,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-6 mt-3 mt-md-0">
-                            <div class="social-link d-flex align-items-center" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="social-link d-flex align-items-center">
                                 <a href="">
                                     <img src="{{asset('img/Subtract.png')}}" alt="" class="img-fluid">
                                 </a>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-6 mt-3 mt-md-0">
-                            <div class="social-link d-flex align-items-center " data-aos="fade-down" data-aos-duration="1000">
+                            <div class="social-link d-flex align-items-center ">
                                 <a href="">
                                     <img src="{{asset('img/tiktok.svg')}}" alt="" class="img-fluid">
                                 </a>
@@ -142,7 +142,7 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-6 col-12">
-                    <div class="why-we-img" data-aos="fade-up-right" data-aos-duration="2000">
+                    <div class="why-we-img">
                         <img src="{{asset('img/Business.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
@@ -180,10 +180,7 @@
         <div class="container-fluid con3">
         <div class="container py-5">
             <div class="row justify-content-center">
-                <div class="col-12 col-lg-6  mt-3" data-aos="fade-right"
-                data-aos-duration="1000"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine">
+                <div class="col-12 col-lg-6  mt-3">
                     <h3>Our key foundations
                         are just the start. </h3>
                     <p class="pt-4">With years of experience, tools, and contacts, we will help you reach your business
@@ -191,10 +188,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-lg-6 mt-3">
-                    <div class="our-quality" data-aos="fade-left"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">
+                    <div class="our-quality">
                         <div class="quality-card d-flex align-items-start" >
                             <div class="img">
                                 <img src="{{asset('img/optimize.svg')}}" alt="" class="img-fluid">
@@ -227,7 +221,7 @@
                 <div class="col-lg-8 col-md-10 col-12 mt-5">
                     <form method="POST" action="{{url('/submit_form')}}">
                         @csrf
-                    <div class="contact-form text-center" id="contact-form" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="contact-form text-center" id="contact-form">
                         <h4>Get In Touch</h4>
                         <div class="row justify-content-center">
                             <div class="col-6 ">
