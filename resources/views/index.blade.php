@@ -43,7 +43,7 @@
                 <div class="col-lg-6 col-12 mt-5" >
                     <div>
                         <h3>Our Clients</h3>
-                        <p class="py-4">Our Growth Services team provides strategic consulting and full-stack
+                        <p class="py-2">Our Growth Services team provides strategic consulting and full-stack
                             operational marketing
                             to your growing mobile or web3 gaming business.</p>
                         <button>explore more</button>
@@ -108,13 +108,13 @@
             </div>
             <div class="row justify-content-center my-5 gap-4">
                 <div class="col-lg-3 col-md-6 col-12">
-                    <div class="grown-type">
+                    <div class="grown-type py-4">
                         <img src="{{asset('img/programmer 1.png')}}" alt="" class="img-fluid">
                         <h5>User Acquisition</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12" >
-                    <div class="grown-type" >
+                    <div class="grown-type py-4" >
                         <img src="{{asset('img/analytics 1.png')}}" alt="" class="img-fluid">
                         <h5>User Acquisition</h5>
                     </div>
@@ -122,7 +122,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <p data-aos="zoom-in" data-aos-duration="1000">
+                    <p class="font-16 lh-40" data-aos="zoom-in" data-aos-duration="1000">
                         By following our approach and continuously doing data research, we are up-to-date on every
                             channel’s changes to ensure we are strategizing your business needs to optimize in a way to
                             grow your business while maximizing profit.
@@ -183,26 +183,26 @@
                 <div class="col-12 col-lg-6  mt-3">
                     <h3>Our key foundations
                         are just the start. </h3>
-                    <p class="pt-4">With years of experience, tools, and contacts, we will help you reach your business
+                    <p class="pt-2">With years of experience, tools, and contacts, we will help you reach your business
                         goals.
                     </p>
                 </div>
-                <div class="col-12 col-lg-6 mt-3">
+                <div class="col-12 col-lg-6 mt-3 d-flex justify-content-center">
                     <div class="our-quality">
-                        <div class="quality-card d-flex align-items-start" >
+                        <div class="quality-card d-flex align-items-center" >
                             <div class="img">
                                 <img src="{{asset('img/optimize.svg')}}" alt="" class="img-fluid">
                             </div>
                             <p class="ml-4">Optimizations </p>
                         </div>
-                        <div class="quality-card d-flex align-items-start mt-4">
+                        <div class="quality-card d-flex align-items-center mt-4">
                             <div class="img">
                                 <img src="{{asset('img/msg.svg')}}" alt="" class="img-fluid">
                             </div>
 
                             <p class="ml-4">Strategic Growth Consulting</p>
                         </div>
-                        <div class="quality-card d-flex align-items-start mt-4">
+                        <div class="quality-card d-flex align-items-center mt-4">
                             <div class="img">
                                 <img src="{{asset('img/relation.svg')}}" alt="" class="img-fluid">
                             </div>
@@ -218,29 +218,29 @@
                     </div>
                 </div>
 
-                <div class="col-lg-8 col-md-10 col-12 mt-5">
-                    <form method="POST" action="{{url('/submit_form')}}">
+                <div class="col-lg-8 col-md-10 col-12 mt-3">
+                    <form class="p-5" method="POST" action="{{url('/submit_form')}}">
                         @csrf
                     <div class="contact-form text-center" id="contact-form">
                         <h4>Get In Touch</h4>
                         <div class="row justify-content-center">
                             <div class="col-6 ">
-                                <input type="text" class="form-control" name="fname" placeholder="First Name" required>
+                                <input type="text" class="form-control mt-4" name="fname" placeholder="First Name" required>
                             </div>
                             <div class="col-6 ">
-                                <input type="text" class="form-control" name="lname" placeholder="Last Name" required>
+                                <input type="text" class="form-control mt-4" name="lname" placeholder="Last Name" required>
                             </div>
                             <div class="col-12 ">
-                                <input type="text" class="form-control" name="company" placeholder="Company Name" required>
+                                <input type="text" class="form-control mt-4" name="company" placeholder="Company Name" required>
                             </div>
                             <div class="col-12 ">
-                                <input type="text" class="form-control" name="promoting" placeholder="What app’s are you promoting?">
+                                <input type="text" class="form-control mt-4" name="promoting" placeholder="What app’s are you promoting?">
                             </div>
                             <div class="col-12 ">
-                                <input type="text" class="form-control" name="industry" placeholder="Industry (ecommerce, gaming, etc)" required>
+                                <input type="text" class="form-control mt-4" name="industry" placeholder="Industry (ecommerce, gaming, etc)" required>
                             </div>
                             <div class="col-12 ">
-                                <input type="number" class="form-control" name="budget" placeholder="Monthly ad budge" required>
+                                <input type="number" class="form-control mt-4" name="budget" placeholder="Monthly ad budge" required>
                             </div>
 
                             <div class="col-12 mt-4">
@@ -283,15 +283,15 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 mt-3" >
-                    <div class="learn-card text-center">
-                        <img src="./img/service.svg" alt="services">
+                    <div class="learn-card text-center py-4">
+                        <img src="./img/service.svg" class="img-fluid" alt="services">
                         <h6>Growth Services</h6>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="learn-card text-center" >
-                        <img src="./img/graph.svg" alt="">
-                        <h6>Data Analysis</h6>
+                    <div class="learn-card text-center py-4" >
+                        <img src="./img/graph.svg" class="img-fluid" alt="">
+                        <h6 class="pt-0">Data Analysis</h6>
                     </div>
                 </div>
             </div>

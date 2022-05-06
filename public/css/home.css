@@ -194,7 +194,7 @@ button:focus {
 
 .ourClient h3 {
     font-family: "Metropolis";
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 400;
     line-height: 60px;
     letter-spacing: 0em;
@@ -203,9 +203,9 @@ button:focus {
 
 .ourClient p {
     font-family: "Metropolis";
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
 }
@@ -214,7 +214,7 @@ button:focus {
     font-family: "Metropolis";
     border: none;
     padding: 12px 35px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: 0em;
@@ -253,7 +253,14 @@ button:focus {
 }
 
 .grown-type img {
-    width: 30% !important;
+    width: 45% !important;
+
+}
+.font-16{
+    font-size: 16px !important;
+}
+.lh-40{
+line-height: 40px !important;
 }
 
 
@@ -261,7 +268,7 @@ button:focus {
 
 .growth h3 {
     font-family: "Metropolis";
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 400;
     line-height: 60px;
     letter-spacing: 0em;
@@ -271,7 +278,7 @@ button:focus {
 
 .growth p {
     font-family: "Metropolis";
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 0em;
@@ -283,8 +290,8 @@ button:focus {
     font-family: "Metropolis";
     padding: 13px;
     border: 3px solid #fff;
-    box-shadow: rgba(255, 255, 255, 0.815) 0px 5px 15px;
-    border-radius: 20px;
+    /* box-shadow: rgba(255, 255, 255, 0.815) 0px 5px 15px; */
+    border-radius: 17px;
     text-align: center;
     background: linear-gradient(131.14deg, #00509B -2.24%, #024685 108.48%);
     transition: 0.5s;
@@ -317,7 +324,7 @@ button:focus {
 .why-weAre h3 {
     font-family: "Metropolis";
     color: white;
-    font-size: 42px;
+    font-size: 35px;
     font-weight: 400;
     line-height: 60px;
     letter-spacing: 0em;
@@ -364,9 +371,9 @@ button:focus {
 
 .just-startNow h3 {
     font-family: "Metropolis";
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 48px;
     letter-spacing: 0em;
     text-align: left;
     color: #fff;
@@ -374,9 +381,9 @@ button:focus {
 
 .just-startNow p {
     font-family: "Metropolis";
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
     color: white;
@@ -470,8 +477,9 @@ button:focus {
 }
 
 .con1 {
-    background: url('../img/1.png');
+    background: url('../img/1.1.png');
     background-repeat: no-repeat;
+    background-position: -297px 0px;
 }
 
 .con2 {
@@ -493,17 +501,17 @@ button:focus {
 }
 
 .Learn-more h3 {
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 35px;
+    font-weight: 700;
     line-height: 60px;
     letter-spacing: 0em;
     text-align: center;
 }
 
 .Learn-more p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 35px;
     letter-spacing: 0em;
     text-align: center;
     padding: 26px;
@@ -511,9 +519,9 @@ button:focus {
 
 .learn-card {
     border: 3px solid #fff;
-    border-radius: 20px;
+    border-radius: 17px;
     padding: 13px;
-    box-shadow: rgba(255, 254, 254, 0.35) 0px 5px 35px;
+    /* box-shadow: rgba(255, 254, 254, 0.35) 0px 5px 35px; */
     background: linear-gradient(131.14deg, #00509B -2.24%, #024685 108.48%);
     transition: 0.3s;
 }
@@ -524,16 +532,16 @@ button:focus {
 }
 
 .learn-card img {
-    width: 30%;
-    height: auto;
+    width: 45%;
+    /* height: auto; */
 }
 
-@media screen and (max-width:768px) {
-    .learn-card img {
-        width: 230px;
-        height: 210px;
-    }
-}
+    /* @media screen and (max-width:768px) {
+        .learn-card img {
+            width: 230px;
+            height: 210px;
+        }
+    } */
 
 .learn-card h6 {
     font-size: 25px;
