@@ -224,7 +224,7 @@
                     <div class="contact-form text-center" id="contact-form">
                         <h4>Get In Touch</h4>
                         <div class="row justify-content-center">
-                            <div class="col-6 ">
+                            <div class="col-6">
                                 <input type="text" class="form-control mt-4" name="fname" placeholder="First Name" required>
                             </div>
                             <div class="col-6 ">

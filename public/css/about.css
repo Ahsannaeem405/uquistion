@@ -86,22 +86,23 @@
 
 .about-hero-details p {
     font-family: "Metropolis";
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
 }
 
 .about-hero-details .theme-btn {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
     border: none;
     text-transform: uppercase;
-    padding: 13px 24px;
+    /* padding: 13px 24px; */
+    padding: 12px 30px;
     border-radius: 10px;
 }
 
@@ -203,9 +204,9 @@
 
 .section-para {
     /* font-family: "Metropolis"; */
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
     color: #fff;
@@ -219,8 +220,8 @@
         font-size: 52px;
     }
     .about-hero-details p {
-        font-size: 18px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 18px;
     }
     .about-hero-details .theme-btn {
         font-size: 14px;
@@ -267,8 +268,8 @@
         margin-bottom: 5px;
     }
     .section-heading {
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 35px;
+        line-height: 48px;
     }
     .section-para {
         font-size: 24px;

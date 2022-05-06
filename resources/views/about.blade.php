@@ -86,13 +86,13 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-6 col-12" data-aos="zoom-in" data-aos-duration="1000">
                     <h3 class="section-heading">User Acquisition</h3>
-                    <p class="section-para pt-4">By taking a comprehensive & latest approach, we use a combination of
+                    <p class="section-para pt-3">By taking a comprehensive & latest approach, we use a combination of
                         strategic thinking and
                         latest marketing research. By being up-to-date on latest trends, knowing what works and what
                         doesn’t. Our focus is on channels that maximize profitability and provide the highest ROI.</p>
                 </div>
                 <div class="col-md-6 col-12">
-                    <div class="section-img" data-aos="flip-right"  data-aos-duration="1000">
+                    <div class="section-img">
                         <img src="{{asset('img/Web-search.png')}}" alt="" class="img-fluid">
                     </div>
                 </div>
@@ -106,7 +106,7 @@
         <img src="{{asset('img/top-bg.svg')}}" alt="" class="w-100 divi-img">
         <div class="container pt-5">
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-6 col-12"  data-aos="flip-left"  data-aos-duration="1000">
+                <div class="col-md-6 col-12">
                     <div class="section-img p-4">
                         <img src="{{asset('img/section2.png')}}" alt="" class="img-fluid">
                     </div>
@@ -132,29 +132,29 @@
                         <h2>Want to Learn More?</h2>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-10 col-12 mt-5">
-                    <form method="POST" action="{{url('/submit_form')}}">
+                <div class="col-lg-8 col-md-10 col-12 mt-3">
+                    <form class="p-5" method="POST" action="{{url('/submit_form')}}">
                         @csrf
-                    <div class="contact-form text-center" id="contact-form" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="contact-form text-center" id="contact-form" mt-4 data-aos="zoom-in" data-aos-duration="1000">
                         <h4>Get In Touch</h4>
                         <div class="row justify-content-center">
                             <div class="col-6 ">
-                                <input type="text" class="form-control" name="fname" placeholder="First Name" required>
+                                <input type="text" class="form-control mt-4" name="fname" placeholder="First Name" required>
                             </div>
                             <div class="col-6 ">
-                                <input type="text" class="form-control" name="lname" placeholder="Last Name" required>
+                                <input type="text" class="form-control mt-4" name="lname" placeholder="Last Name" required>
                             </div>
                             <div class="col-12 ">
-                                <input type="text" class="form-control" name="company" placeholder="Company Name" required>
+                                <input type="text" class="form-control mt-4" name="company" placeholder="Company Name" required>
                             </div>
                             <div class="col-12 ">
-                                <input type="text" class="form-control" name="promoting" placeholder="What app’s are you promoting?">
+                                <input type="text" class="form-control mt-4" name="promoting" placeholder="What app’s are you promoting?">
                             </div>
                             <div class="col-12 ">
-                                <input type="text" class="form-control" name="industry" placeholder="Industry (ecommerce, gaming, etc)" required>
+                                <input type="text" class="form-control mt-4" name="industry" placeholder="Industry (ecommerce, gaming, etc)" required>
                             </div>
                             <div class="col-12 ">
-                                <input type="number" class="form-control" name="budget" placeholder="Monthly ad budge" required>
+                                <input type="number" class="form-control mt-4" name="budget" placeholder="Monthly ad budge" required>
                             </div>
 
                             <div class="col-12 mt-4">
@@ -196,15 +196,15 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="learn-card text-center" >
+                    <div class="learn-card text-center py-3" >
                         <img src="{{asset('img/service.svg')}}" alt="services">
                         <h6>Growth Services</h6>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="learn-card text-center">
+                    <div class="learn-card text-center py-3">
                         <img src="{{asset('img/graph.svg')}}" alt="">
-                        <h6>Data Analysis</h6>
+                        <h6 class="pt-0">Data Analysis</h6>
                     </div>
                 </div>
             </div>
